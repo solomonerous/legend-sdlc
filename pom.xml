@@ -76,7 +76,7 @@
 
         <!-- Dependency versions -->
         <commons-codec.version>1.15</commons-codec.version>
-        <commons-compress.version>1.21</commons-compress.version>
+        <commons-compress.version>1.26.0</commons-compress.version>
         <commons-io.version>2.7</commons-io.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.11</commons-lang3.version>
@@ -89,23 +89,23 @@
         <findbugs.version>3.0.0</findbugs.version>
         <freemarker.version>2.3.30</freemarker.version>
         <gitlab4j.version>4.16.0</gitlab4j.version>
-        <guava.version>31.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <guice.version>6.0.0</guice.version>        
         <hibernate-validator.version>5.4.3.Final</hibernate-validator.version>
         <hk2.version>2.5.0-b32</hk2.version>
         <jackson.version>2.10.5</jackson.version>
-        <jackson.databind.version>2.10.5.1</jackson.databind.version>
+        <jackson.databind.version>2.12.7.1</jackson.databind.version>
         <javax.servlet.version>3.1.0</javax.servlet.version>
         <javax.ws.rs.version>2.1.1</javax.ws.rs.version>
         <jersey.version>2.25.1</jersey.version>
         <jersey2-guice.version>1.0.6</jersey2-guice.version>
-        <jetty.version>9.4.44.v20210927</jetty.version>
-        <json-smart.version>2.4.7</json-smart.version>
+        <jetty.version>9.4.53.v20231009</jetty.version>
+        <json-smart.version>2.4.9</json-smart.version>
         <junit.version>4.13.1</junit.version>
         <maven.version>3.9.2</maven.version>
-        <pac4j.version>3.8.3</pac4j.version>
+        <pac4j.version>4.5.5</pac4j.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <snakeyaml.version>1.33</snakeyaml.version>
+        <snakeyaml.version>2.0</snakeyaml.version>
 
         <!-- Plugin versions -->
         <jacoco.maven.plugin.version>0.8.10</jacoco.maven.plugin.version>
@@ -250,7 +250,7 @@
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>8.25</version>
+                        <version>8.29</version>
                     </dependency>
                 </dependencies>
                 <executions>
@@ -993,7 +993,7 @@
             <dependency>
                 <groupId>com.nimbusds</groupId>
                 <artifactId>nimbus-jose-jwt</artifactId>
-                <version>8.0</version>
+                <version>9.37.2</version>
             </dependency>
             <dependency>
                 <groupId>com.nimbusds</groupId>
@@ -1108,7 +1108,7 @@
             <dependency>
                 <groupId>io.github.classgraph</groupId>
                 <artifactId>classgraph</artifactId>
-                <version>4.8.25</version>
+                <version>4.8.112</version>
             </dependency>
 
             <dependency>
